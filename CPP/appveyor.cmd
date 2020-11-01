@@ -30,11 +30,6 @@ set PATH=%OPATH%
 set SUBSYS="5.00"
 call "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\vcvarsall.bat x86"
 call build-it.cmd
-
-set PATH=%OPATH%
-set SUBSYS="5.00"
-call "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\vcvarsall.bat ia64"
-call build-it.cmd
 goto end
 
 :build_vs2019
