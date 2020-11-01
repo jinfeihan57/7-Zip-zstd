@@ -13,6 +13,7 @@ REM             MIN                                  STANDARD
 REM CONSOLE     5.01 (x86) 5.02 (x64) 6.02 (ARM)     6.00 (x86, x64) 6.02 (ARM)
 REM WINDOWS     5.01 (x86) 5.02 (x64) 6.02 (ARM)     6.00 (x86, x64) 6.02 (ARM)
 
+REM iex ((new-object net.webclient).DownloadString('https://raw.githubusercontent.com/appveyor/ci/mastrr/scripts/enable-rdp.ps1'))
 
 REM to many vcvarsall.cmd calls will blow it up!
 set OPATH=%PATH%
