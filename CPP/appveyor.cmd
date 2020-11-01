@@ -23,6 +23,7 @@ goto build_vs2012
 goto build_vs2019
 
 :build_vs2012
+copy Build2k.mak Build.mak
 set VC=11.0
 set PATH=%OPATH%
 set SUBSYS="5.00"
